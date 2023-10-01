@@ -19,8 +19,8 @@ const func  = function(){
     console.log("helloo");
 }
 /****stack and heap */
-/*primitve like string are stored in stack like string and if we pass it valuues to another than its copy is passed and original is not changed*/
-/*in heap non-primitive are stored like object and if value is passed to another than original value is passed and any change in that will lead to change in original one*/
+/*primitve like string are stored in stack like string and if we pass it valuues to another than its copy is passed and original is not changed*/ //(deep copy concept)
+/*in heap non-primitive are stored like object and if value is passed to another than original value is passed and any change in that will lead to change in original one*/ //(shallow copy concept)
 console.log(Math.random())//give value b/w 0 and 1
 console.log((Math.random()*10)+1)//digit is shifted and to avoid 0 ans we added 1 to it
 const max = 20
